@@ -101,13 +101,44 @@
                 <version>3.0.0</version> <!-- à ne pas changer : c'est la version du plugin (et pas de java) -->
                 <executions>
                     <execution>
+
                         <goals>
                             <goal>java</goal>
                         </goals>
                     </execution>
+
+                    <execution>
+                        <id>thread01</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>thread.Compte01</mainClass>  <!-- à changer : classe avec point d'entrée pour votre projet -->
+                            <arguments>
+                                <argument>10</argument>
+                            </arguments>
+
+                        </configuration>
+                    </execution>
+
+                    <execution>
+                        <id>thread02</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>thread.Compte02</mainClass>  <!-- à changer : classe avec point d'entrée pour votre projet -->
+                            <arguments>
+                                <argument>10</argument>
+                            </arguments>
+
+                        </configuration>
+                    </execution>
+
+
                 </executions>
                 <configuration>
-                    <mainClass>todo
+                    <mainClass>event.ApplicationGraphique
                     </mainClass>  <!-- à changer : classe avec point d'entrée pour votre projet -->
                     <!-- argument de la commande java (en plus du nom de la classe et du classpath -->
 
