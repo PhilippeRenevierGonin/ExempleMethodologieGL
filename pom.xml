@@ -135,6 +135,34 @@
                         </configuration>
                     </execution>
 
+                    <execution>
+                        <id>thread04</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>thread.Compte04</mainClass>  <!-- à changer : classe avec point d'entrée pour votre projet -->
+                            <arguments>
+                                <argument>10</argument>
+                            </arguments>
+
+                        </configuration>
+                    </execution>
+
+                    <execution>
+                        <id>wait</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>threadevent.Fenetre</mainClass>  <!-- à changer : classe avec point d'entrée pour votre projet -->
+                            <arguments>
+                                <argument>10</argument>
+                            </arguments>
+
+                        </configuration>
+                    </execution>
+
 
                 </executions>
                 <configuration>
