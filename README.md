@@ -2,7 +2,7 @@
 exemples (event, thread) pour le cours Méthodologie GL L3 Miage de l'Unviersité Côté d'Azur
 
 Soit vous ouvrez le code dans votre ide, soit vous pouvez faire en ligne de commande 
-```
+```bash
 mvn compile 
 #pour la démo swing / event graphique
 mvn exec:java 
